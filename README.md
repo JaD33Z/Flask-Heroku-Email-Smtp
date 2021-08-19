@@ -23,7 +23,7 @@ and then passing that into a config variable on Heroku.
 - Enter your 16 digit app-password in place of your actual gmail password in the config variable value.
 - e.g.    key : value     'MAIL_DEFAULT_SENDER' = 'your new app password'      
             
-       And that's that. Keep your actual app-password hidden in a environment variable so nobody can get it.
+And that's that. Keep your actual app-password hidden in a environment variable so nobody can get it.
 You should only need it once, but keep a record of it somewhere in case. Also even though google reccommends turning off access
 to less secure apps, you most likely have to turn access on for it to work with your app.
 Keep in mind the config var is only changed on the Heroku server, locally everything stays the same as it was in your file.   
