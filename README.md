@@ -1,6 +1,6 @@
 # Flask-Heroku-Email-Smtp
 
-    I had come across using flask mail to send emails from a "Contact Me" page. Locally not a hiccup. Everything works, cool, alright! 
+I had come across using flask mail to send emails from a "Contact Me" page. Locally not a hiccup. Everything works, cool, alright! 
 Only once deployed on Heroku, sending emails immediately throws an internal server error: smtplib.SMTPAuthenticationError: (534,
 Tried allowing third party apps/ less secure access, all the common checkpoints..
 Not getting any notifications from gmail, nothing.  While looking into this, it seemed to be a similar story of frustration for quite a few people. 
